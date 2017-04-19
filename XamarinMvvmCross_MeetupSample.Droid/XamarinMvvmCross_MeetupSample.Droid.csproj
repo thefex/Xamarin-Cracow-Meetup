@@ -253,6 +253,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_logout_white_24dp.png" />
     <AndroidResource Include="Resources\layout\people_list_fragment.xml" />
     <AndroidResource Include="Resources\layout\person_layout.xml" />
+    <AndroidResource Include="Resources\layout\special_person_layout.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -284,6 +285,7 @@
     <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
     <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
     <Compile Include="Extensions\IncrementalLoadingRecyclerViewScrollListener.cs" />
+    <Compile Include="Extensions\TemplateSelectors\PeopleListTemplateSelector.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
@@ -295,6 +297,7 @@
     <Folder Include="Resources\menu\" />
     <Folder Include="Configuration\" />
     <Folder Include="Views\Fragments\" />
+    <Folder Include="Extensions\TemplateSelectors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />

@@ -7,6 +7,6 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        local:MvxItemTemplate="@layout/person_layout"
+        local:MvxTemplateSelector="@string/special_person_item_template_selector"
         local:MvxBind="ItemsSource Items" />
 </android.support.design.widget.CoordinatorLayout>

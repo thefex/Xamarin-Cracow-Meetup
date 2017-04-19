@@ -30,7 +30,8 @@ namespace XamarinMvvmCross_MeetupSample.Core
 					FirstName = name[nameIndex],
 					LastName = surname[surnameIndex] + " " + _randomGenerator.Next(50000),
 					GroupName = groups[groupIndex],
-					PicturePath = "http://lorempixel.com/300/300?uniqueId=" + _randomGenerator.Next(50000).ToString()
+					PicturePath = "http://lorempixel.com/300/300?uniqueId=" + _randomGenerator.Next(50000).ToString(),
+					IsSpecialPerson = _randomGenerator.Next(100) >= 50
 				};
 			}
 		}

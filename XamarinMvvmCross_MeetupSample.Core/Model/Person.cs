@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace XamarinMvvmCross_MeetupSample.Core
 {
 	public class Person
@@ -14,6 +14,7 @@ namespace XamarinMvvmCross_MeetupSample.Core
 		public string LastName { get; set; }
 
 		public string PicturePath { get; set; }
+		public bool IsSpecialPerson { get; set; }
 
 		public override string ToString()
 		{
