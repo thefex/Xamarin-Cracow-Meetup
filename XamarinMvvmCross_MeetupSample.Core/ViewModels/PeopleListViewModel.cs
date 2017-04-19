@@ -22,7 +22,7 @@ namespace XamarinMvvmCross_MeetupSample.Core
 		{
 		}
 
-		public ReadOnlyObservableCollection<Person> Items { get; private set; }
+		public ReadOnlyObservableCollection<GroupedData> Items { get; private set; }
 
 		public override void Appearing()
 		{
@@ -52,13 +52,13 @@ namespace XamarinMvvmCross_MeetupSample.Core
 				return x.ToString().CompareTo(y.ToString());
 			});
 
-			ReadOnlyObservableCollection<Person> observableCollection;
+			ReadOnlyObservableCollection<GroupedData> observableCollection;
 			DisposableItems.Add(_itemsSource
 								.Connect()
 								.Sort(personComparer)
 			                    .Distinct()
-								//.GroupOn(x => x.GroupName)
-								//.Transform(CreatePersonGroup)
+								.GroupOn(x => x.GroupName)
+								.Transform(CreatePersonGroup)
 								.ObserveOn(SynchronizationContext.Current)
 								.Bind(out observableCollection)
 								.DisposeMany()

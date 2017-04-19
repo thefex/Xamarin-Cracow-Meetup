@@ -7,6 +7,8 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        local:MvxGroupSectionLayoutId="@layout/person_group_header"
+        local:MvxGroupedDataConverter="@string/person_grouped_data_converter"
         local:MvxTemplateSelector="@string/special_person_item_template_selector"
         local:MvxBind="ItemsSource Items" />
 </android.support.design.widget.CoordinatorLayout>

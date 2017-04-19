@@ -254,6 +254,7 @@
     <AndroidResource Include="Resources\layout\people_list_fragment.xml" />
     <AndroidResource Include="Resources\layout\person_layout.xml" />
     <AndroidResource Include="Resources\layout\special_person_layout.xml" />
+    <AndroidResource Include="Resources\layout\person_group_header.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -286,6 +287,7 @@
     <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
     <Compile Include="Extensions\IncrementalLoadingRecyclerViewScrollListener.cs" />
     <Compile Include="Extensions\TemplateSelectors\PeopleListTemplateSelector.cs" />
+    <Compile Include="Extensions\GroupedDataConverter\PeopleGroupedDataConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
@@ -298,6 +300,7 @@
     <Folder Include="Configuration\" />
     <Folder Include="Views\Fragments\" />
     <Folder Include="Extensions\TemplateSelectors\" />
+    <Folder Include="Extensions\GroupedDataConverter\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />
