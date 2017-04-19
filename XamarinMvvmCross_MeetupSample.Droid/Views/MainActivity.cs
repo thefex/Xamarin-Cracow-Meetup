@@ -28,7 +28,14 @@ namespace XamarinMvvmCross_MeetupSample.Droid.Views
 			// this step should be usually done by some kind of ViewModel Command
 			Mvx.Resolve<IMvxViewDispatcher>()
 			   .ShowViewModel(MvxViewModelRequest.GetDefaultRequest(typeof(PeopleListViewModel)));
+		}
 
+		protected override System.Collections.Generic.IEnumerable<Core.MessageObserver.IMessageObserver> GetMessageObservers()
+		{
+			foreach (var observer in base.GetMessageObservers())
+				yield return observer;
+
+			yield return new ToastMvxMessageObserver(() => FindViewById(Resource.Id.layoutRoot));
 		}
 
 		private void SetupToolbar()

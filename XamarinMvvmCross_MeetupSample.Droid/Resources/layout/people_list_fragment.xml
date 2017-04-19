@@ -2,7 +2,8 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/layoutRoot">
     <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -12,5 +13,5 @@
         local:MvxGroupSectionLayoutId="@layout/person_group_header"
         local:MvxGroupedDataConverter="@string/person_grouped_data_converter"
         local:MvxTemplateSelector="@string/special_person_item_template_selector"
-        local:MvxBind="ItemsSource Items" />
+        local:MvxBind="ItemsSource Items; ItemClick PeopleTapped" />
 </android.support.design.widget.CoordinatorLayout>

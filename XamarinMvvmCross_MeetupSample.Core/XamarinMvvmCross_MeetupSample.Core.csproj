@@ -123,6 +123,7 @@
     <Compile Include="Model\GroupedData.cs" />
     <Compile Include="Model\MockedDataGenerator.cs" />
     <Compile Include="Services\IIncrementalLoading.cs" />
+    <Compile Include="MessageObserver\Messages\ToastMvxMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MessageObserver\" />

@@ -6,7 +6,9 @@ using System.Reactive.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using DynamicData;
+using MvvmCross.Core.ViewModels;
 using PropertyChanged;
+using XamarinMvvmCross_MeetupSample.Core.Services;
 using XamarinMvvmCross_MeetupSample.Core.ViewModels;
 
 namespace XamarinMvvmCross_MeetupSample.Core
@@ -102,5 +104,10 @@ namespace XamarinMvvmCross_MeetupSample.Core
 		{
 			return _itemsSource.Count < 75;
 		}
+
+		public MvxCommand<Person> PeopleTapped => new MvxExceptionGuardedCommand<Person>((x) =>
+		{
+			ServicesLocation.Messenger.Publish(new ToastMvxMessage(this, $"{x.ToString()} has been selected."));
+		});
 	}
 }

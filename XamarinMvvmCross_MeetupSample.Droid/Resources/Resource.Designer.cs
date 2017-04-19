@@ -7371,11 +7371,11 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e00ee
 			public const int background_container = 2131624174;
 			
-			// aapt resource value: 0x7f0e0154
-			public const int background_imagein = 2131624276;
+			// aapt resource value: 0x7f0e0155
+			public const int background_imagein = 2131624277;
 			
-			// aapt resource value: 0x7f0e0153
-			public const int background_imageout = 2131624275;
+			// aapt resource value: 0x7f0e0154
+			public const int background_imageout = 2131624276;
 			
 			// aapt resource value: 0x7f0e0108
 			public const int bar1 = 2131624200;
@@ -7770,6 +7770,9 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e0098
 			public const int largeLabel = 2131624088;
 			
+			// aapt resource value: 0x7f0e014e
+			public const int layoutRoot = 2131624270;
+			
 			// aapt resource value: 0x7f0e00a3
 			public const int lb_action_button = 2131624099;
 			
@@ -7887,8 +7890,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e00f5
 			public const int logo = 2131624181;
 			
-			// aapt resource value: 0x7f0e0155
-			public const int logout = 2131624277;
+			// aapt resource value: 0x7f0e0156
+			public const int logout = 2131624278;
 			
 			// aapt resource value: 0x7f0e002d
 			public const int main = 2131623981;
@@ -7902,8 +7905,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e00e1
 			public const int main_image = 2131624161;
 			
-			// aapt resource value: 0x7f0e0152
-			public const int masked = 2131624274;
+			// aapt resource value: 0x7f0e0153
+			public const int masked = 2131624275;
 			
 			// aapt resource value: 0x7f0e0034
 			public const int maxLines = 2131623988;
@@ -8022,8 +8025,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e0081
 			public const int radio = 2131624065;
 			
-			// aapt resource value: 0x7f0e014e
-			public const int recyclerView = 2131624270;
+			// aapt resource value: 0x7f0e014f
+			public const int recyclerView = 2131624271;
 			
 			// aapt resource value: 0x7f0e0038
 			public const int right = 2131623992;
@@ -8154,8 +8157,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e0070
 			public const int spacer = 2131624048;
 			
-			// aapt resource value: 0x7f0e014f
-			public const int spinner = 2131624271;
+			// aapt resource value: 0x7f0e0150
+			public const int spinner = 2131624272;
 			
 			// aapt resource value: 0x7f0e001d
 			public const int split_action_bar = 2131623965;
@@ -8181,8 +8184,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e0093
 			public const int submit_area = 2131624083;
 			
-			// aapt resource value: 0x7f0e0150
-			public const int switchWidget = 2131624272;
+			// aapt resource value: 0x7f0e0151
+			public const int switchWidget = 2131624273;
 			
 			// aapt resource value: 0x7f0e0057
 			public const int tabMode = 2131624023;
@@ -8271,8 +8274,8 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			// aapt resource value: 0x7f0e0015
 			public const int view_offset_helper = 2131623957;
 			
-			// aapt resource value: 0x7f0e0151
-			public const int visible = 2131624273;
+			// aapt resource value: 0x7f0e0152
+			public const int visible = 2131624274;
 			
 			// aapt resource value: 0x7f0e0064
 			public const int withText = 2131624036;

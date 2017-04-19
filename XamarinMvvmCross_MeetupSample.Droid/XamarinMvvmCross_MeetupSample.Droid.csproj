@@ -290,6 +290,7 @@
     <Compile Include="Extensions\IncrementalLoadingRecyclerViewScrollListener.cs" />
     <Compile Include="Extensions\TemplateSelectors\PeopleListTemplateSelector.cs" />
     <Compile Include="Extensions\GroupedDataConverter\PeopleGroupedDataConverter.cs" />
+    <Compile Include="Messenging\Observers\ToastMvxMessageObserver.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
