@@ -255,6 +255,8 @@
     <AndroidResource Include="Resources\layout\person_layout.xml" />
     <AndroidResource Include="Resources\layout\special_person_layout.xml" />
     <AndroidResource Include="Resources\layout\person_group_header.xml" />
+    <AndroidResource Include="Resources\layout\person_list_header.xml" />
+    <AndroidResource Include="Resources\layout\person_list_footer.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

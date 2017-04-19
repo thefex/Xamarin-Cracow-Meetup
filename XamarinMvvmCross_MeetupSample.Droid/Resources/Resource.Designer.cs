@@ -8817,73 +8817,79 @@ namespace XamarinMvvmCross_MeetupSample.Droid
 			public const int person_layout = 2130903167;
 			
 			// aapt resource value: 0x7f030080
-			public const int preference = 2130903168;
+			public const int person_list_footer = 2130903168;
 			
 			// aapt resource value: 0x7f030081
-			public const int preference_category = 2130903169;
+			public const int person_list_header = 2130903169;
 			
 			// aapt resource value: 0x7f030082
-			public const int preference_category_material = 2130903170;
+			public const int preference = 2130903170;
 			
 			// aapt resource value: 0x7f030083
-			public const int preference_dialog_edittext = 2130903171;
+			public const int preference_category = 2130903171;
 			
 			// aapt resource value: 0x7f030084
-			public const int preference_dropdown = 2130903172;
+			public const int preference_category_material = 2130903172;
 			
 			// aapt resource value: 0x7f030085
-			public const int preference_dropdown_material = 2130903173;
+			public const int preference_dialog_edittext = 2130903173;
 			
 			// aapt resource value: 0x7f030086
-			public const int preference_information = 2130903174;
+			public const int preference_dropdown = 2130903174;
 			
 			// aapt resource value: 0x7f030087
-			public const int preference_information_material = 2130903175;
+			public const int preference_dropdown_material = 2130903175;
 			
 			// aapt resource value: 0x7f030088
-			public const int preference_list_fragment = 2130903176;
+			public const int preference_information = 2130903176;
 			
 			// aapt resource value: 0x7f030089
-			public const int preference_material = 2130903177;
+			public const int preference_information_material = 2130903177;
 			
 			// aapt resource value: 0x7f03008a
-			public const int preference_recyclerview = 2130903178;
+			public const int preference_list_fragment = 2130903178;
 			
 			// aapt resource value: 0x7f03008b
-			public const int preference_widget_checkbox = 2130903179;
+			public const int preference_material = 2130903179;
 			
 			// aapt resource value: 0x7f03008c
-			public const int preference_widget_seekbar = 2130903180;
+			public const int preference_recyclerview = 2130903180;
 			
 			// aapt resource value: 0x7f03008d
-			public const int preference_widget_switch = 2130903181;
+			public const int preference_widget_checkbox = 2130903181;
 			
 			// aapt resource value: 0x7f03008e
-			public const int preference_widget_switch_compat = 2130903182;
+			public const int preference_widget_seekbar = 2130903182;
 			
 			// aapt resource value: 0x7f03008f
-			public const int select_dialog_item_material = 2130903183;
+			public const int preference_widget_switch = 2130903183;
 			
 			// aapt resource value: 0x7f030090
-			public const int select_dialog_multichoice_material = 2130903184;
+			public const int preference_widget_switch_compat = 2130903184;
 			
 			// aapt resource value: 0x7f030091
-			public const int select_dialog_singlechoice_material = 2130903185;
+			public const int select_dialog_item_material = 2130903185;
 			
 			// aapt resource value: 0x7f030092
-			public const int special_person_layout = 2130903186;
+			public const int select_dialog_multichoice_material = 2130903186;
 			
 			// aapt resource value: 0x7f030093
-			public const int SplashScreen = 2130903187;
+			public const int select_dialog_singlechoice_material = 2130903187;
 			
 			// aapt resource value: 0x7f030094
-			public const int support_simple_spinner_dropdown_item = 2130903188;
+			public const int special_person_layout = 2130903188;
 			
 			// aapt resource value: 0x7f030095
-			public const int toolbar = 2130903189;
+			public const int SplashScreen = 2130903189;
 			
 			// aapt resource value: 0x7f030096
-			public const int video_surface_fragment = 2130903190;
+			public const int support_simple_spinner_dropdown_item = 2130903190;
+			
+			// aapt resource value: 0x7f030097
+			public const int toolbar = 2130903191;
+			
+			// aapt resource value: 0x7f030098
+			public const int video_surface_fragment = 2130903192;
 			
 			static Layout()
 			{

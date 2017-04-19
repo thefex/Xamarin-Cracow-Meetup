@@ -7,6 +7,8 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        local:MvxHeaderLayoutId="@layout/person_list_header"
+        local:MvxFooterLayoutId="@layout/person_list_footer"
         local:MvxGroupSectionLayoutId="@layout/person_group_header"
         local:MvxGroupedDataConverter="@string/person_grouped_data_converter"
         local:MvxTemplateSelector="@string/special_person_item_template_selector"
