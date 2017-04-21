@@ -70,9 +70,6 @@
     <Reference Include="MvvmCross.Droid.Support.V17.Leanback, Version=4.5.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\MvvmCross.Core.4.5.0-unstable1990\lib\MonoAndroid\MvvmCross.Droid.Support.V17.Leanback.dll</HintPath>
     </Reference>
-    <Reference Include="MvvmCross.Droid.Support.V7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\MvvmCross.Droid.Support.V7.AppCompat.4.4.0\lib\MonoAndroid70\MvvmCross.Droid.Support.V7.AppCompat.dll</HintPath>
-    </Reference>
     <Reference Include="MvvmCross.Droid.Support.V7.Preference, Version=4.5.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\MvvmCross.Core.4.5.0-unstable1990\lib\MonoAndroid\MvvmCross.Droid.Support.V7.Preference.dll</HintPath>
     </Reference>
